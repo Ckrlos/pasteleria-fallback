@@ -6,19 +6,65 @@
   <title>Pastelería Mil Errores</title>
   <style>
     body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #fff8f0, #ffe4c4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       text-align: center;
-      font-family: sans-serif;
-      padding-top: 100px;
-      background-color: #fff8f0;
+      color: #444;
     }
-    h1 { color: #d2691e; }
-    p { color: #444; }
+
+    h1 {
+      color: #d2691e;
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #d2691e;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #b55a1e;
+      transform: scale(1.05);
+    }
+
+    .emoji {
+      font-size: 2rem;
+      margin-right: 10px;
+    }
+
+    .clash-link {
+      display: block;
+      margin-top: 20px;
+      font-size: 1.2rem;
+      color: #1c1c1c;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>¡Estamos en mantenimiento! 🛠️</h1>
-  <p>Jugando Clash Royal</p>
- <h1> únanse  al clan </h1> <a>https://link.clashroyale.com/invite/clan/es?tag=GPQQ8JQV&token=8j6477sa&platform=android</a>
-
+  <h1><span class="emoji">🛠️</span>¡Estamos en mantenimiento!</h1>
+  <p>Pero no todo está perdido… mientras tanto:</p>
+  <a class="button" href="https://link.clashroyale.com/invite/clan/es?tag=GPQQ8JQV&token=8j6477sa&platform=android" target="_blank">
+    Únete al clan de Clash Royale
+  </a>
 </body>
 </html>
